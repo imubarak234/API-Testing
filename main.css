@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.flex{
+  display: flex;
+}
+
+.direction{
+  flex-direction: column;
+}
+
+body,
+html {
+  height: 100%;
+  background-color: aliceblue;
+}
+
+.section {
+  height: 100%;
+}
+
+.top-section {
+  display: flex;
+  height: 50%;
+}
+
+.img-section {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 2%;
+  align-items: center;
+}
+
+.details {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 2%;
+}
+
+.main-img {
+  width: 50%;
+  height: 85%;
+  border: 2px solid white;
+  border-radius: 4%;
+}
+
+.img-section button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 12%;
+  margin-top: 3%;
+} 
+
+.img-section button p {
+  padding-right: 2%;
+  font-size: 1.2em;
+}
+
+.img-section button img {
+  width: 7%;
+}
+
+.details h3 {
+  font-size: 3em;
+  font-weight: 600;
+}
+
+.details p {
+  font-size: 1.2em;
+  padding: 1.8% 0;
+}
+
+.comment-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 50%;
+  padding-top: 4%;
+}
+
+.comment-section h2 {
+  font-size: 3em;
+}
+
+#form {
+  padding-top: 0.8%;
+  width: 25%;
+}
+
+.commenting {
+  padding: 2% 0;
+  font-size: 1.2em;
+}
+
+#form input,
+#form button {
+  padding: 3%;
+  margin: 2.5% 0;
+}
+
+#adding {
+  width: 30%;
+}
+
+.comment-section form #comment {
+  padding: 5% 2%;
+}
