@@ -1,3 +1,7 @@
+/* eslint-disable no-console */
+/* eslint-disable no-restricted-syntax */
+
+
 // // fetch("https://api.tvmaze.com/v1/user/follows/networks", {
 // //   method: "GET",
 // //   mode: "no-cors",
@@ -59,8 +63,8 @@ const datas = {
   // .then(response => response.json())
   // .then(data => console.log(data));
 
-
-   get(`https://api.spacexdata.com/v3/missions`)
+  //https://api.covid19tracking.narrativa.com/api/
+   get(`https://api.covid19tracking.narrativa.com/api/2022-01-30`)
    .then(data => console.log(data))
 
 //  fetch("https://api.tvmaze.com/lookup/shows?tvrage=24493")
