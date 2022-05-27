@@ -2,20 +2,20 @@
 /* eslint-disable no-restricted-syntax */
 
 
-// // fetch("https://api.tvmaze.com/v1/user/follows/networks", {
-// //   method: "GET",
-// //   mode: "no-cors",
-// //   credentials: "include",
-// //   //Accept: "application/json",
-// //   //Authorization: "Basic TXViYXJha0licmFoaW0gKHB1YmxpYyk6amw4LWEzVmJsX25scXl6cVJwU3BZVkFKUW9qSmM0OTY=",
-// //   headers: {
-// //     "X-Auth-Token": "jl8-a3Vbl_nlqyzqRpSpYVAJQojJc496",
-// //     "Content-Type": "application/json",
-// //     Authorization: "Basic TXViYXJha0licmFoaW0gKHB1YmxpYyk6amw4LWEzVmJsX25scXl6cVJwU3BZVkFKUW9qSmM0OTY=",
-// //   }
-// // })
-//   .then(response => response.json())
-//   .then(json => console.log(json))
+fetch("https://api.tvmaze.com/v1/user/follows/networks", {
+  method: "GET",
+  mode: "no-cors",
+  credentials: "include",
+  //Accept: "application/json",
+  //Authorization: "Basic TXViYXJha0licmFoaW0gKHB1YmxpYyk6amw4LWEzVmJsX25scXl6cVJwU3BZVkFKUW9qSmM0OTY=",
+  headers: {
+    "X-Auth-Token": "jl8-a3Vbl_nlqyzqRpSpYVAJQojJc496",
+    "Content-Type": "application/json",
+    Authorization: "Basic TXViYXJha0licmFoaW0gKHB1YmxpYyk6amw4LWEzVmJsX25scXl6cVJwU3BZVkFKUW9qSmM0OTY=",
+  }
+})
+  .then(response => response.json())
+  .then(json => console.log(json))
 
 const body = {
   item_id: "item3",
