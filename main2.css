@@ -7,12 +7,11 @@
 body,
 html {
   height: 100%;
-
   background-color: aliceblue;
 }
 
-#side-bar {
-  width: 100px;
+#side-bar nav {
+  width: 20vw;
   border: solid 2px black;
   z-index: 2;
 }
