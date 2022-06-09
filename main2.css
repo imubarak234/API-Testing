@@ -10,8 +10,20 @@ html {
   background-color: aliceblue;
 }
 
-#side-bar nav {
-  width: 20vw;
-  border: solid 2px black;
-  z-index: 2;
+#side-bar {
+  width: 12%;
+}
+
+#second-half {
+  width: 88%;
+}
+
+#side-bar nav ul a {
+  font-size: 1.4em;
+  color: black;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  background-color: #97bf0f !important;
+  color: white !important;
 }
