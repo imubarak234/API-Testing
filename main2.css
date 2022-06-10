@@ -11,5 +11,19 @@ html {
 }
 
 nav .images {
-  width: 20%;
+  width: 28%;
+}
+
+nav button {
+  width: 10%;
+  height: 9vh;
+  border: none;
+}
+
+nav a {
+  width: 40%;
+}
+
+nav button img {
+  width: 65%;
 }
