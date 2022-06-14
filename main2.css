@@ -27,3 +27,21 @@ nav a {
 nav button img {
   width: 65%;
 }
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  background-color: #97bf0f !important;
+  color: white !important;
+}
+
+#side-bar {
+  width: 12%;
+}
+
+#side-bar nav ul a {
+  font-size: 1.4em;
+  color: black;
+}
+
+.second-half {
+  width: 88%;
+}
