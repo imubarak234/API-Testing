@@ -52,19 +52,20 @@
   
     
   
-    <div class="d-flex flex-column align-items-center login second-half">
-      <div class="d-flex flex-column justify-content-center m-3">
+    <div class="d-flex flex-column align-items-center" id="second-half">
+      <div class="d-flex flex-column justify-content-center m-3 form-title">
         <h2 class="h1 p-3">Login Form</h2>
+        <span></span>
       </div>
       <form class="auth_form row g-3 needs-validation p-3 border" id="login_id" noValidate>
         <div class="col-md-12">
           <label htmlFor="validationCustomUsername" class="form-label w-100 p-3">
-            Username
+            Email
             <div class="input-group has-validation">
               <span class="input-group-text" id="inputGroupPrepend">@</span>
-              <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required />
+              <input type="email" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required />
               <div class="invalid-feedback">
-                Please Enter a username.
+                Please Enter a Email.
               </div>
             </div>
           </label>

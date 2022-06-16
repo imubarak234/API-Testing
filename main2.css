@@ -7,7 +7,6 @@
 body,
 html {
   height: 100%;
-  background-color: aliceblue;
 }
 
 nav .images {
@@ -35,11 +34,13 @@ nav button img {
 
 #side-bar {
   width: 20%;
+  background-color: rgb(251 249 249);;
 }
 
 #side-bar nav {
   width: 75%;
   border-right: 1px solid #e5e5e5;
+  background-color: white;
 }
 
 #side-bar nav ul a {
@@ -50,15 +51,41 @@ nav button img {
   text-transform: uppercase;
 }
 
-.second-half {
+#second-half {
   width: 88%;
+  padding-top: 3em;
+  background-color: rgb(251 249 249);
 }
 
-.login {
-  width: 100%;
+#second-half form {
+  margin-top: 2em;
+  border-radius: 1.5em;
+  color: black;
+  font-weight: 300;
+  font-size: 1.3em;
+}
+
+#second-half .form-title span {
+  border-bottom: 3.5px solid black;
 }
 
 nav ul li {
   width: 100%;
+}
+
+.reg-button {
+  background-color: #96bf02;
+  color: #fff;
+  font-weight: 700;
+  font-size: large;
+  padding: 0.8rem 1em;
+  border-radius: 10px;
+  margin-left: 1rem;
+  border: none;
+}
+
+.reg-button:hover {
+  background-color: #bee923;
+  color: #fff;
 }
 
