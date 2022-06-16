@@ -34,14 +34,31 @@ nav button img {
 }
 
 #side-bar {
-  width: 12%;
+  width: 20%;
+}
+
+#side-bar nav {
+  width: 75%;
+  border-right: 1px solid #e5e5e5;
 }
 
 #side-bar nav ul a {
-  font-size: 1.4em;
+  font-size: 1.2em;
+  font-weight: 700;
   color: black;
+  text-align: left;
+  text-transform: uppercase;
 }
 
 .second-half {
   width: 88%;
 }
+
+.login {
+  width: 100%;
+}
+
+nav ul li {
+  width: 100%;
+}
+
