@@ -57,5 +57,39 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
+  <form class="relate" id="contacts" novalidate>
+    <fieldset class="relate">
+        <input type="text" name="first-name" placeholder="First Name" id="first-name">
+        <input type="text" name="last-name" placeholder="Last Name" id="last-name">
+    </fieldset>
+    <ul>
+    <li class="form-text side">
+        <input id="names" type="text" name="name" placeholder="Name"
+        aria-required="true" maxlength="30"
+        required>
+        <small></small>
+    </li>
+    <li class="form-text">
+        <input id="emails" type="email" name="emails" placeholder="Email Address" aria-required="true"
+        required>
+        <small></small>
+    </li>
+    <li class="form-text1">
+        <textarea name="user_text" id="text-field" maxlength="500" placeholder="Write your message here"
+        required aria-required="true"></textarea>
+    </li>
+    <li class="foot-list">
+        <button class="foot-button relate" type="submit">Send</button>
+    </li>
+    </ul>
+</form>
+<form>
+  <input type="text" name="name" required>
+  <input type="email" name="email" required>
+  <input pattern="\d*" name="number" required>
+
+  <input type="submit" value="Publish"> <!-- form will be validated -->
+  <input type="submit" value="Save" formnovalidate> <!-- form will NOT be validated -->
+</form>
 </body>
 </html>
