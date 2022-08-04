@@ -69,6 +69,11 @@ nav button img {
   border-bottom: 3.5px solid black;
 }
 
+#second-half .btn-outline-success {
+  color: #96bf02;
+  border-color: #96bf02;
+}
+
 nav ul li {
   width: 100%;
 }
