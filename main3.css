@@ -3,3 +3,32 @@
   margin: 0;
   padding: 0;
 }
+
+:root {
+  --light_color: #a8dadc;
+  --dark-color: #1d3557;
+  --red-color: #e63946;
+  --lighter-color: #f1faee;
+}
+
+nav {
+  background-color: var(--light_color);
+  color: var(--dark-color);
+}
+
+nav .navs-links ul {
+  list-style-type: none;
+  text-decoration: none;
+  margin-bottom: 0;
+}
+
+nav .navs-links ul li {
+  border: 2px solid black;
+  padding: 0.5em 0.8em;
+}
+
+nav .navs-links ul li a {
+  text-decoration: none;
+  color: var(--dark-color);
+  font-size: 1.1em;
+}
