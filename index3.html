@@ -17,123 +17,34 @@
   src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
   integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
   crossorigin="anonymous"></script>
+  <script src="./more_test.js"></script>i
+  <script src=
+    "https://smtpjs.com/v3/smtp.js">
+  </script>
   <title>Document</title>
+  <script type="text/javascript">
+    function sendEmail() {
+      Email.send({
+        Host: "smtp.elasticemail.com",
+        Username: "shithappens242@gmail.com",
+        Password: "CDDCFFD1435D9E89DFDA74FA9A0A6234A007",
+        To: 'imubarak2424@gmail.com',
+        From: "shithappens242@gmail.com",
+        Subject: "Sending Email using javascript",
+        Body: "Well that was easy!!",
+      })
+        .then(function (message) {
+          console.log("mail sent successfully", message)
+        });
+    }
+  </script>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar scroll</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarScroll">
-        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Link
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Link</a>
-          </li>
-        </ul>
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-      </div>
-    </div>
-  </nav>
+  <form method="post">
+    <input type="button" value="Send Email"
+        onclick="sendEmail()" />
+  </form>
 
-  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="/images/pexels-nao-triponez-129208 (1).jpg" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="" class="d-block w-100" alt="...">
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-  <form class="relate" id="contacts" novalidate>
-    <fieldset class="relate">
-        <input type="text" name="first-name" placeholder="First Name" id="first-name">
-        <input type="text" name="last-name" placeholder="Last Name" id="last-name">
-    </fieldset>
-    <ul>
-    <li class="form-text side">
-        <input id="names" type="text" name="name" placeholder="Name"
-        aria-required="true" maxlength="30"
-        required>
-        <small></small>
-    </li>
-    <li class="form-text">
-        <input id="emails" type="email" name="emails" placeholder="Email Address" aria-required="true"
-        required>
-        <small></small>
-    </li>
-    <li class="form-text1">
-        <textarea name="user_text" id="text-field" maxlength="500" placeholder="Write your message here"
-        required aria-required="true"></textarea>
-    </li>
-    <li class="foot-list">
-        <button class="foot-button relate" type="submit">Send</button>
-    </li>
-    </ul>
-</form>
-<a href="/" class="btn btn-secondary">Update</a>
-
-<div class="d-flex justify-content-between" id="second-half">
-  <div class="h-100 w-75 d-flex justify-content-center align-content-center">
-    <img src="./images/undraw_Static_website_re_x70h-removebg-preview.png" alt="" class="img-fluid">
-  </div>
-  <div class=" h-100 w-25 me-5">
-    <h2 class="h2 p-2 mb-2">Title of Course</h2>
-    <span class="d-flex w-100 justify-content-between bg-secondary text-white">
-      <p class="p-2 mb-2">Category</p>
-      <p class="p-2 mb-2">Category</p>
-    </span>
-    
-    <span class="d-flex w-100 justify-content-between">
-      <p class="p-2 mb-2 ">Price</p>
-      <p class="p-2 mb-2 ">Price</p>
-    </span>
-
-    <span class="d-flex w-100 justify-content-between bg-secondary text-white">
-      <p class="p-2 mb-2">Duration</p>
-      <p class="p-2 mb-2">Duration</p>
-    </span>
-    
-    <span class="d-flex w-100 justify-content-between">
-      <p class="p-2 mb-2">Description:</p>
-      <p class="p-2 mb-2">Description Description Description Description Description Description</p>
-    </span>
-    
-    <button class="btn btn-outline-success"><i class="bi bi-card-checklist px-2"></i>Reserve Course<i class="bi bi-arrow-right-circle px-2"></i></button>
-  </div>
-</div>
+  <button class="btn btn-danger" type="button" id="spreads">Fetch Spreadsheet</button>
 </body>
 </html>
