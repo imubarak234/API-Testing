@@ -11,7 +11,7 @@
   --lighter-color: #f1faee;
 }
 
-nav {
+/* nav {
   background-color: var(--light_color);
   color: var(--dark-color);
 }
@@ -31,4 +31,43 @@ nav .navs-links ul li a {
   text-decoration: none;
   color: var(--dark-color);
   font-size: 1.1em;
+} */
+
+#mobile {
+  background-image: url(./images/Digital_Nigeria_Banner_2022.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top right;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  height: 100vh;
+  width: 100%;
+  overflow: auto;
+}
+
+#mobile .container .heads button {
+  background-color: transparent;
+  border: none;
+}
+
+#mobile .container .mobile-menu {
+  margin: 70px 50px;
+}
+
+#mobile .container .mobile-menu li a {
+  font-size: 1.7em;
+  color: #081c15;
+  font-weight: 600;
+  margin-top: 2.4em;
+  border-bottom: 2px solid #2d6a4f;
+}
+
+#mobile .container .mobile-menu .reg-button a {
+  background-color: #d8f3dc;
+  border-bottom: none;
+  font-size: 2.2em;
+  padding: 1em 1.5em;
+  border-radius: 10px;
 }
