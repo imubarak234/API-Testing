@@ -113,3 +113,29 @@ html {
 .comment-section form #comment {
   padding: 5% 2%;
 }
+
+#pops {
+  background-color: rgba(45, 106, 79, 0.6);
+  height: 100vh;
+  width: 100%;
+  /* position: fixed;
+  z-index: 10000;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(8px); */
+}
+
+#pops .inner-pops {
+  background-color: white;
+  width: 600px;
+  border-radius: 10px;
+}
+
+#pops .inner-pops button {
+  background-color: transparent;
+  border: none;
+}
+
+#pops .inner-pops button svg:hover {
+  fill: green;
+}
