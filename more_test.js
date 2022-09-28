@@ -1,6 +1,6 @@
 
 const sgMail = require('@sendgrid/mail')
-// sgMail.setApiKey('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')
+// sgMail.setApiKey('')
 
 console.log(process.env.SENDGRID_API_KEY)
 // fetch("https://api.twilio.com/2010-04-01/Accounts/AC21613e24f57fc71ea268a3f8213b31f6/Messages.json", {
