@@ -26,10 +26,11 @@
     function sendEmail() {
       Email.send({
         Host: "smtp.elasticemail.com",
-        Username: "shithappens242@gmail.com",
-        Password: "CDDCFFD1435D9E89DFDA74FA9A0A6234A007",
+        Username: "digitalnigeria2022@gmail.com",
+        Port: "2525",
+        Password: "ED930F949049591E09AB981289F0BCD48F52",
         To: 'imubarak2424@gmail.com',
-        From: "shithappens242@gmail.com",
+        From: "digitalnigeria@nitda.gov.ng",
         Subject: "Sending Email using javascript",
         Body: "Well that was easy!!",
       })
@@ -43,10 +44,10 @@
 <body>
   <form method="post">
     <input type="button" value="Send Email"
-        onclick="sendEmail()" />
+        onclick="firstFetch()" />
   </form>
 
-  <button class="btn btn-danger" type="button" id="spreads">Fetch Spreadsheet</button>
+  <!-- <button class="btn btn-danger" type="button" id="spreads">Fetch Spreadsheet</button> -->
 
   <section id="mobile" class="p-3">
     <div class="container">

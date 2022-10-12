@@ -7,11 +7,11 @@ fetch("https://api.tvmaze.com/v1/user/follows/networks", {
   mode: "no-cors",
   credentials: "include",
   //Accept: "application/json",
-  //Authorization: "Basic TXViYXJha0licmFoaW0gKHB1YmxpYyk6amw4LWEzVmJsX25scXl6cVJwU3BZVkFKUW9qSmM0OTY=",
+  //Authorization: "Basic ",
   headers: {
     "X-Auth-Token": "jl8-a3Vbl_nlqyzqRpSpYVAJQojJc496",
     "Content-Type": "application/json",
-    Authorization: "Basic TXViYXJha0licmFoaW0gKHB1YmxpYyk6amw4LWEzVmJsX25scXl6cVJwU3BZVkFKUW9qSmM0OTY=",
+    Authorization: "Basic ",
   }
 })
   .then(response => response.json())
@@ -31,7 +31,6 @@ const datas = {
      const response = await fetch(url);
      return response.json();
    }
-   'ObbG1JsyiVwBBexxqAxs'
 
    const post = async (url = "", data = {}) => {
      const response = await fetch(url, {
@@ -46,13 +45,10 @@ const datas = {
      return response.text();
    }
 
-   const urs = "nXyHWG91DDFEdfBFaNH0"
-
   //  console.log('ddddddddd')
   //   get("https://us-central1-bookstore-api-e63c8.cloudfunctions.net/bookstoreApi/apps/")
   //   .then(data => console.log(data))
 
-   'ObbG1JsyiVwBBexxqAxs'
    //post(`https://us-central1-bookstore-api-e63c8.cloudfunctions.net/bookstoreApi/apps/${urs}/books/item2`, {'item_id': 'item2'})
    //.then(data => console.log(data));
 
