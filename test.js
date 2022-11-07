@@ -79,6 +79,17 @@ span.addEventListener('click', () => {
 }
 
 
+ReactDOM.render(
+    <React.StrictMode>
+      <Router>
+        <Routes>
+          <Route path="/" element={<App />} />
+          <Route path="/errorpage" element={<Errorpage />} />
+        </Routes>
+      </Router>
+    </React.StrictMode>,
+  document.getElementById('root'),
+);
 
   
 
