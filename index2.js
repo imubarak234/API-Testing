@@ -31,9 +31,19 @@ const generatePDF = async (name) => {
   });
 
   const uri = await pdfDoc.saveAsBase64({dataUri: true});
-  window.open(uri);
 
-  document.querySelector("#mypdf").src = uri;
+  saveAs(uri, "Blue_Simple_Achievement_Certificate.pdf", { autoBom: true });
+  // window.open(uri);
+
+  // document.querySelector("#mypdf").src = uri;
 }
 
-generatePDF("Mubarak Ibrahim");
+const inputs = document.getElementById("names");
+const printer = document.getElementById("prints");
+
+printer.addEventListener('click', () => {
+  const val = inputs.value;
+  generatePDF(val);
+})
+
+//generatePDF("Mubarak Ibrahim");

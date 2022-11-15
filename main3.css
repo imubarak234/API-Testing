@@ -4,7 +4,7 @@
   padding: 0;
 }
 
-body {
+/* body {
   background-image: url(./images/undraw_React_re_g3ui-removebg-preview.png);
   background-size: contain;
   background-repeat: no-repeat;
@@ -12,7 +12,7 @@ body {
   border: solid 3px black;
   width: 100%;
   height: 100%;
-}
+} */
 
 :root {
   --light_color: #a8dadc;
