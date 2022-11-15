@@ -21,6 +21,17 @@ body {
   --lighter-color: #f1faee;
 }
 
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(150,191,2, 0.5);
+}
+
 /* nav {
   background-color: var(--light_color);
   color: var(--dark-color);
